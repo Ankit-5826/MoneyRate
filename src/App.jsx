@@ -60,6 +60,7 @@ function App() {
           <div
             className="bg-sky-700 border-2 border-white rounded-lg text-white"
             style={{ padding: "5px 10px", margin: "-15px 0px", zIndex: "10" }}
+            onClick={swap}
           >
             Swap
           </div>
